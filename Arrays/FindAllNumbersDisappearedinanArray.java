@@ -23,6 +23,10 @@
 
 // Follow up: Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
 
+
+
+
+
 // Brute fore version
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -53,6 +57,9 @@ class Solution {
 }
 
 
+
+
+
 // Optimized version
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -74,3 +81,4 @@ class Solution {
 
     }
 }
+
