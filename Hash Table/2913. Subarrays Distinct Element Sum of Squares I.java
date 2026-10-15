@@ -35,7 +35,11 @@ Constraints:
 
 https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/?envType=daily-question&envId=2026-10-15 */
 
+import java.util.HashSet;
+import java.util.List;
+
 class Solution {
+
     public int sumCounts(List<Integer> nums) {
         int n = nums.size();
         int ans = 0;
@@ -49,7 +53,7 @@ class Solution {
                 ans += count * count;
             }
         }
-        
+
         return ans;
     }
 }
