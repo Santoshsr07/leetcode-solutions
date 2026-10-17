@@ -18,12 +18,14 @@
 // Input: nums = [2,5]
 // Output: [5,2]
 // Explanation: In round one, first Alice removes 2 and then Bob removes 5. Then in arr firstly Bob appends and then Alice appends. So arr = [5,2].
- 
+
 // Constraints:
 
 // 2 <= nums.length <= 100
 // 1 <= nums[i] <= 100
 // nums.length % 2 == 0
+
+import java.util.Arrays;
 
 class Solution {
     public int[] numberGame(int[] nums) {
