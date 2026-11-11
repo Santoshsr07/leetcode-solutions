@@ -9,7 +9,7 @@
 // Example 2:
 // Input: head = [1,1,2,3,3]
 // Output: [1,2,3]
- 
+
 // Constraints:
 // The number of nodes in the list is in the range [0, 300].
 // -100 <= Node.val <= 100
@@ -17,7 +17,6 @@
 // The list is guaranteed to be sorted in ascending order.
 
 // ****************************code**************************
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,7 +27,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
- 
+
 class Solution {
 
     public ListNode deleteDuplicates(ListNode head) {
