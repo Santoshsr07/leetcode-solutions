@@ -7,7 +7,7 @@ The left subtree of a node contains only nodes with keys strictly less than the 
 The right subtree of a node contains only nodes with keys strictly greater than the node's key.
 Both the left and right subtrees must also be binary search trees.
 
- */
+https://leetcode.com/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked */
 
 import java.util.List;
 import java.util.ArrayList;
